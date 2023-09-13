@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://github.com/Gui153/wordleProject/blob/master/walkthrough.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 GIF created with [ScreenToGif](https://www.screentogif.com/)
@@ -36,7 +36,8 @@ GIF created with [ScreenToGif](https://www.screentogif.com/)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+During the production of the app I found it difficult to use the spannableStringBuilder to change the color of text at certain points in the string. However after spending some time with it, I was able to figure out how it worked.
+It was a little difficult to set up the confetti animation.
 
 ## License
 
