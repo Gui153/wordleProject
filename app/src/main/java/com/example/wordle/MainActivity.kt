@@ -32,10 +32,11 @@ object FourLetterWordList {
     // Returns a random four letter word from the list in all caps
     fun getRandomFourLetterWord(): String {
         val allWords = getAllFourLetterWords()
-        val randomNumber = (0..allWords.size).shuffled().last()
+        val randomNumber = (allWords.indices).shuffled().last()
         return allWords[randomNumber].uppercase()
     }
 }
+
 
 fun check(guess:String, actual:String): String {
     var buildOut = ""
@@ -251,6 +252,6 @@ class MainActivity : AppCompatActivity() {
             outSave.clear()
             outSave.clearSpans()
         }
-        
+
     }
 }
